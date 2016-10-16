@@ -1,0 +1,29 @@
+/* all the css here */
+
+* {
+  text-align: center;
+}
+.ndx-body {
+  width: 1300px;
+  height: auto;
+  max-height: 900px;
+}
+.ndx-header {
+}
+  .panes {
+    display: inline-block;
+  }
+div#left-pane {
+  width: 460px;
+  max-height: 850px;
+  background-color: lightblue;
+  }
+  
+  div#right-pane {
+    width: 800px;
+    max-height: 850px;
+    float: right;
+  }
+  .ndx-footer {
+    clear: both;
+  }

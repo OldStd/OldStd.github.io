@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<title>How to use inspector tool for CSS scripts</title>
+<head>
+
+<style type="text/css">
+* {
+  text-align: center;
+}
+.ndx-body {
+  width: 1270px;
+  height: auto;
+  max-height: 900px;
+}
+.ndx-header {
+}
+  .panes {
+    display: inline-block;
+  }
+div#left-pane {
+  width: 460px;
+  max-height: 850px;
+}
+  div#right-pane {
+    width: 800px;
+    max-height: 850px;
+    float: right;
+  }
+  .ndx-footer {
+    clear: both;
+  }
+</style>
+<script type="text/javascript">
+  function myFunction (num){
+var ifrm_notes = document.getElementById("iframe_notes");
+var nts = "Step" + num + ".html";
+ifrm_notes.src = nts;
+
+var img_display1 = document.getElementById("img_display");
+var wdsp = "Step_" + num + ".png";
+img_display1.src = wdsp;
+}
+</script>
+
+</head>
+<body class="ndx-body">
+<div class="ndx-wrapper">
+<div class="ndx-header">
+  <h1>How to use the Google-developer tool to write CSS scripts</h1>
+  <h2>I have captured the steps to use the inspector tool <br> 
+  in Google Chrome to write the CSS scripts <br>
+  in a series of screenshots.</h2>
+  <h2>Please click on the buttons <br> 
+  to see the screenshots</h2>
+  <div id="menu">
+<button onclick="myFunction(0);">0 </button>  
+<button onclick="myFunction(1);">1 </button>
+<button onclick="myFunction(2);">2 </button>
+<button onclick="myFunction(3);">3 </button>
+<button onclick="myFunction(4);">4 </button>
+<button onclick="myFunction(5);">5 </button>
+<button onclick="myFunction(6);">6 </button>
+<button onclick="myFunction(7);">7 </button>
+<button onclick="myFunction(8);">8 </button>
+</div>
+</div>
+
+<div class="ndx-content">
+<div class="panes" id="left-pane">
+  <div id="div-notes">
+    <iframe src="Step0.html" width="450" height="600" id="iframe_notes"></iframe>
+  </div>
+</div>
+<div class="panes" id="right-pane" >
+  <img src="Step_0.png" id="img_display">
+</div>
+</div>
+
+<div class="ndx-footer">
+  <h2>Footer</h2>
+  <h3>Comments are most welcome</h3>
+</div>
+</div>
+</body>
+</html>
+
