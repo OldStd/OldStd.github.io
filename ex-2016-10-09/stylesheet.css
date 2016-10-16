@@ -1,0 +1,47 @@
+div#wrpr {
+    width: 1224px;
+    height: 970px;
+    border: 1px solid red;
+    background-color: lightblue;
+}
+
+header#hdr {
+    width: 1200px;
+    height: 250px;
+    border: 2px solid blue;
+    background-color: beige;
+    margin: 10px;
+    text-align: center;
+}
+article {
+    height: 500px;
+    border: 2px solid green;
+    margin-left: 10px;
+    /* display: inline-block; */
+    float: left;
+}
+article#art1 {
+	width: 200px;
+    background-color: yellow;
+}
+
+article#art2 {
+	width: 600px;
+    background-color: silver;
+}
+
+article#art3 {
+	width: 360px;
+    background-color: transparent;
+}
+footer#ftr {
+    width: 1200px;
+    height: 160px;
+    border: 2px solid blue;
+    background-color: beige;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    clear: both;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Notes & CSS</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+
+<body class="n-body">
+
+<div class="container">
+  <h3>
+  	3. position:absolute
+  </h3>
+<p>
+When you specify position:absolute, the element is removed from the document and placed exactly where you tell it to go.
+</p>
+
+<p>
+Let's move div-1a to the top right of the page:
+</p>
+</div>
+<div class="container" id="pre1">
+<pre>
+div#wd3-div-1a {
+ position:absolute;
+ top:0;
+ right:0;
+ width:200px;
+}
+</pre>
+</div>
+
+<div class="w3-container">
+  <h1></h1>
+<p>
+Notice that this time, since div-1a was removed from the document, the other elements on the page were positioned differently: div-1b, div-1c, and div-after moved up since div-1a was no longer there.
+</p>
+
+<p>
+Also notice that div-1a was positioned in the top right corner of the page. It's nice to be able to position things directly the page, but it's of limited value.
+</p>
+<p>
+	What I really want is to position div-1a relative to div-1. And that's where relative position comes back into play.
+</p>
+<p>
+  Footnotes
+</p>
+<ul>
+	<li>
+	There is a bug in the Windows IE browser: if you specify a relative width (like "width:50%") then the width will be based on the parent element instead of on the positioning element.
+	</li>
+</ul>
+</div>
+</body>
+</html>

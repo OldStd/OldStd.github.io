@@ -1,0 +1,12 @@
+
+img#logo1 {
+    width: 55px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.hx {
+    display: inline-block;
+    padding: 10px;
+}

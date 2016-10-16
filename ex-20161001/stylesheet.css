@@ -1,0 +1,240 @@
+/* index */
+/* <style type="text/css"> */
+.ndx-body {
+    width: 1300px;
+    height: auto;
+    border: 2px solid blue;
+    display: block;
+    box-sizing: border-box;
+}
+  .ndx-wrapper {
+    width: 1300px;
+    height: auto;
+    //border: 2px solid green;
+}
+.ndx-header {
+    width: 1300px;
+    height: 200px;
+    text-align: center;
+    background-color: lightgreen;
+    box-sizing: border-box;
+    margin: : 10px;
+}
+.panes {
+  display: inline-block;
+}
+dir#left-pane {
+    background-color: teal;
+}
+div#right-pane {
+  float: right;
+  background-color: lightblue;
+  
+}
+.ndx-footer {
+  width: 100%;
+  height: 150px;
+  background-color: gray;
+  text-align: center;
+
+}
+/* </style> */ /* end of index */
+/* nav */
+/* <style type="text/css"> */
+div#menu1 a {
+    display: none;
+}
+button {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid red;
+    border-radius: 10px;
+    color: white;
+}
+
+/* </style> */ /* end of nav */
+
+/* nx */
+/* <style type="text/css">*/
+  body.n-body {
+    width: 600px;
+    height: 780px;
+    border: 1px solid red;
+    background-color: lightblue;
+  }
+div#pre1 {
+  padding: 10px;
+  border: 5px dashed black;
+  background-color: white;
+  color: purple;
+  border-radius: 20px;
+  margin: 50px;
+  width: 380px;
+  height: auto;
+  font-size: 20px;
+}
+pre {
+    width: 380px;
+    
+}
+/* </style> */
+/* end of nx */
+/* wdx */
+/* <style type="text/css"> */
+  body.c-wd-body {
+    width: 600px;
+    height: 900px;
+    border: 1px solid red;
+    background-color: lightblue;
+  }
+.c-wd-wrapper {
+    width: 600px;
+    height: 900px;
+    float: right;
+    background-color: yellow;
+    
+  }
+.c-div-before {
+    background-color: purple;
+    color: white;
+  }
+.c-div-after {
+    background-color: purple;
+    color: white;
+  }
+
+ .c-div-1 {
+  background-color: black;
+  color: white;
+ } 
+  .c-div-1a {
+  background-color: red;
+
+ } 
+  .c-div-1b {
+  background-color: green;
+
+ } 
+  .c-div-1c {
+  background-color: indigo;
+
+ } 
+
+/* </style> */
+/* end of wdx */
+
+/* These are the instructions given
+ * in order to illustrate
+ * the various uses of positions
+ * in the lesson
+ */
+/* wd0 to wd10 */
+/* wd0 */
+/* end of wd0 */
+/* wd1 */
+div#wd1-div-1 {
+ position:static;
+}
+/* end of wd1 */
+/* wd2 */
+ div#wd2-div-1 {
+ position:relative;
+ top:20px;
+ left:-40px;
+}
+/* end of wd2 */
+/* wd3 */
+ div#wd3-div-1a {
+ position:absolute;
+ top:0;
+ right:0;
+ width:200px;
+}
+/* end of wd3 */
+/* wd4 */
+div#wd4-div-1 {
+ position:relative;
+}
+div#wd4-div-1a {
+ position:absolute;
+ top:0;
+ right:0;
+ width:200px;
+}
+/* end of wd4 */
+/* wd5 */
+div#wd5-div-1 {
+ position:relative;
+}
+div#wd5-div-1a {
+ position:absolute;
+ top:0;
+ right:0;
+ width:200px;
+}
+div#wd5-div-1b {
+ position:absolute;
+ top:0;
+ left:0;
+ width:200px;
+ }
+/* end of wd5 */
+/* wd6 */
+div#wd6-div-1 {
+ position:relative;
+ height:250px;
+}
+div#wd6-div-1a {
+ position:absolute;
+ top:0;
+ right:0;
+ width:200px;
+}
+div#wd6-div-1b {
+ position:absolute;
+ top:0;
+ left:0;
+ width:200px;
+} 
+/* end of wd6 */
+/* wd7 */
+div#wd7-div-1a {
+ float:left;
+ width:200px;
+} 
+/* end of wd7 */
+/* wd8 */
+div#wd8-div-1a {
+ float:left;
+ width:150px;
+}
+div#wd8-div-1b {
+ float:left;
+ width:150px;
+} 
+
+/* end of wd8 */
+/* wd9 */
+div#wd9-div-1a {
+ float:left;
+ width:190px;
+}
+div#wd9-div-1b {
+ float:left;
+ width:190px;
+}
+div#wd9-div-1c {
+ clear:both;
+} 
+
+/* end of wd9 */
+/* wd10 */
+
+/* end of wd10 */
+/* end of wd0 to wd10 */
+
+/* wd */
