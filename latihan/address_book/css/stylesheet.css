@@ -1,0 +1,83 @@
+/* put all your css styles here */
+div#ndx_wrapper {
+    width: 1072px;
+    height: 850px;
+    border: 2px solid black;
+    background-color: beige;
+}
+
+header#ndx_header {
+    width: 1024px;
+    height: 150px;
+    border: 2px solid blue;
+    padding: 24px;
+    background-color: blanchedalmond;
+}
+
+div.ifrm_wrapper {
+    width: 900px;
+    height: 800px;
+    max-height: 1000px;
+    border: 2px solid green;
+    padding: 24px;
+    margin-left: 24px;
+    background-color: lightblue;
+}
+
+
+header#ndx_header img {
+    margin: 20px;
+    height: 70px;
+    width: 120px;
+    display: inline-block;
+    float: none;
+    border-radius: 50%;
+}
+
+header h1 {
+            margin: 10px;
+            box-sizing: border-box;
+            text-align: center;
+            font-family: cursive;
+            border-bottom: 2px solid black;
+        }        
+#ndx_nav {
+            width: 360px;
+            height: 100px;
+            display: inline-block;
+            margin: 40px 20px 20px 0px;
+            float: right;
+            box-sizing: border-box;
+        }
+        #ndx_nav ul {
+            height: 100px;
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+    #ndx_nav ul li button {
+        width: auto;
+        height: 100%;
+        background-color: #FF5722;   
+        border-radius: 10px;
+        display: inline-block;  
+        float: left;           
+        padding: 10px;
+        margin-right: 2%;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        font-size: 1em;
+        
+    }
+
+    footer#ndx_footer {
+    width: 1048px;
+    height: 8%;
+    border: 2px solid black;
+    background-color: goldenrod;
+    text-align: center;
+    padding: 10px;
+    font-family: cursive;
+    font-size: 1.5em;
+}

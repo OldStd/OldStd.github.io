@@ -1,0 +1,49 @@
+/* css */
+div#ifrm3_header {
+    width: 100%;
+    height: 10%;
+    border: 2px solid black;
+    background-color: bisque;
+}
+a#email {
+    position: absolute;
+    top: 36px;
+    left: 750px;
+}
+
+.ifrm3_left {
+    width: 20%;
+    height: 60%;
+    background-color: coral;
+    display: inline-block;
+    padding: 10px 10px 10px 20px;
+    margin-top: 25px;
+    float: left;
+}
+
+.ifrm3_right {
+    width: 70%;
+    height: 60%;
+    background-color: lightsalmon;
+    display: inline-block;
+    padding: 15px;
+    margin: 15px 0px 0px 20px;
+    float: right;
+}
+
+div#ifrm3_footer {
+    width: 100%;
+    height: 10%;
+    background-color: coral;
+    border: 2px solid black;
+    clear: both;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+p#name {
+    padding-left: 20px;
+    font-weight: bolder;
+    font-size: large;
+}
