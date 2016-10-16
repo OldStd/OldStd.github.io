@@ -1,0 +1,17 @@
+/* ss5.css */
+div#div-1 {
+ position:relative;
+}
+div#div-1a {
+ position:absolute;
+ top:0;
+ right:0;
+ width:200px;
+}
+div#div-1b {
+ position:absolute;
+ top:0;
+ left:0;
+ width:200px;
+ }
+/* end of ss5.css */

@@ -1,0 +1,40 @@
+/* frm.css */
+div.pane {
+    width: 25%;
+    height: 80%;
+    background-color: beige;
+    padding: 15px;
+    border: 1px solid green;
+    display: inline-block;
+    margin: 20px;
+    float: left;
+    border-radius: 15px;
+}
+
+div#frm-right {
+    float: right;
+    clear: both;
+    position: relative;
+    top: -89%;
+    /* bottom: 0; */
+    /* margin-left: 30px; */
+}
+
+input[type="text"] {
+    column-width: 100px;
+    padding: 20px;
+}
+
+label {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+textarea#txtar {
+    padding: 16px;
+}
+input[type="submit"] {
+    padding: 10px;
+    font-size: 1.5em;
+    border-radius: 30%;
+}

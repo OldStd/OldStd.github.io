@@ -1,0 +1,10 @@
+/* css */
+div#welcome {
+    width: 900px;
+    height: 700px;
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+    margin: 0 20px 20px 20px;
+}
+

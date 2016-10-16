@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Notes & CSS</title>
+	<link rel="stylesheet" type="text/css" href="ssnx.css">
+</head>
+<body class="n-body">
+
+<div class="container">
+  <h3>2. position:relative</h3>
+<p>
+If you specify position:relative, then you can use top or bottom, and left or right to move the element relative to where it would normally occur in the document.
+</p>
+
+<p>
+Let's move div-1 down 20 pixels, and to the left 40 pixels:
+</p>
+</div>
+<div class="container" id="pre1">
+
+<pre>
+ #div-1 {
+ position:relative;
+ top:20px;
+ left:-40px;
+}
+</pre>
+
+</div>
+
+<div class="w3-container">
+  <h1></h1>
+<p>
+Notice the space where div-1 normally would have been if we had not moved it: now it is an empty space. The next element (div-after) did not move when we moved div-1. That's because div-1 still occupies that original space in the document, even though we have moved it.
+</p>
+
+<p>
+It appears that position:relative is not very useful, but it will perform an important task later in this tutorial.
+</p>
+</div>
+
+</body>
+</html>

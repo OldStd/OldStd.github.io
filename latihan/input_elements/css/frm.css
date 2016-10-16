@@ -1,0 +1,25 @@
+/* frm.css */
+div#frm-wrapper {
+    width: 1000px;
+    height: 700px;
+    background-color: yellow;
+    border: 1px solid blue;
+}
+div#frm-wrapper {
+    width: 1000px;
+    height: 700px;
+    background-color: yellow;
+    border: 1px solid blue;
+}
+
+div.pane {
+    width: 25%;
+    height: 80%;
+    background-color: beige;
+    padding: 15px;
+    border: 1px solid green;
+    display: inline-block;
+    margin: 25px;
+    float: left;
+    border-radius: 15px;
+}

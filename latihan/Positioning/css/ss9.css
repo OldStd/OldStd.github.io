@@ -1,0 +1,14 @@
+/* ss9.css */
+div#div-1a {
+ float:left;
+ width:190px;
+}
+div#div-1b {
+ float:left;
+ width:190px;
+}
+div#div-1c {
+ clear:both;
+} 
+
+/* end of ss9.css */

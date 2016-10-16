@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css\stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="css\frm.css">
+</head>
+<body>
+<div id="frm-wrapper">
+	<div class="pane"  id="left">
+		<h2>We explain what is to be done in the form entry in the middle pane.</h2>
+	</div>
+
+	<div class="pane" id="center">
+	<h1>Entry Form</h1>
+		<form  action="action_page.php" id="frm1">
+			First name:<br>
+  <input type="text" name="firstname">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname"><br>
+  <input type="radio" name="gender" value="male" checked> Male
+
+  <input type="radio" name="gender" value="female"> Female <br>
+Car owned: <br>
+<select>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="opel">Opel</option>
+  <option value="audi">Audi</option>
+</select>
+  <br>
+Comments: <br>
+<textarea rows="4" cols="30">
+put some somments here
+</textarea>
+
+<br>
+<br>
+<br>
+
+  <input type="submit" value="Submit">
+  
+		</form>
+	</div>
+
+	<div class="pane" id="right">
+		<h3>This right plane when completed will display the result of the entry in the form that has been called up from the database that stores the entries made in the form.</h3>
+	</div>
+</div>
+</body>
+</html>

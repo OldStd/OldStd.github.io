@@ -1,0 +1,43 @@
+/* css */
+div#cv-header {
+    width: 100%;
+    height: 10%;
+    border: 2px solid black;
+}
+a#email {
+    position: absolute;
+    top: 36px;
+    left: 750px;
+}
+
+.cv-left {
+    width: 20%;
+    height: 60%;
+    background-color: beige;
+    display: inline-block;
+    padding: 10px 10px 10px 20px;
+    margin-top: 25px;
+    float: left;
+}
+
+.cv-right {
+    width: 70%;
+    height: 60%;
+    background-color: lightsalmon;
+    display: inline-block;
+    padding: 15px;
+    margin: 15px 0px 0px 20px;
+    float: right;
+}
+
+div#cv-footer {
+    width: 100%;
+    height: 10%;
+    background-color: coral;
+    border: 2px solid black;
+    clear: both;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    
+}
