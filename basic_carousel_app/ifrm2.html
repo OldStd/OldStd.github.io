@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>basic-carousel with arrows and dots</title>
+
+  <script src="demos/lib/web-animations.min.js"></script>
+  <!-- TODO: Use npm distribution of v1 polyfills when available. -->
+  <script src="demos/bower_components/webcomponents.js/webcomponents-lite.js"></script>
+  <script src="demos/bower_components/custom-elements/src/native-shim.js"></script>
+  <script src="demos/bower_components/custom-elements/src/htmlelement-instanceof.js"></script>
+  <script src="basic-arrow-selection/dist/basic-arrow-selection.js"></script>
+  <script src="basic-page-dots/dist/basic-page-dots.js"></script>
+  <script src="dist/basic-carousel.js"></script>
+  <link rel="stylesheet" href="demos/demos.css">
+
+  <style>
+  html {
+    height: 100%;
+  }
+
+  body {
+    background: black;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: -webkit-flex;
+    display: flex;
+  }
+
+  basic-arrow-selection,
+  basic-page-dots,
+  basic-carousel {
+    width: 35%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex: 1;
+    flex: 1;
+  }
+
+  img {
+    width: 100%;
+    height: 90%;
+  }
+ 
+  </style>
+
+</head>
+
+<body>
+
+  <basic-arrow-selection class="overlay">
+    <basic-page-dots>
+      <basic-carousel aria-label="Nature scenes" selection-wraps="true">
+        <img src="demos/resources/images/pic1.png" alt="stool">
+        <img src="demos/resources/images/pic2.png" alt="coushions">
+           <img src="demos/resources/images/pic3.png" alt="pillows">
+        <img src="demos/resources/images/pic4.png" alt="book">
+     
+        <img src="demos/resources/images/pic5.png" alt="reading in comfort">
+                <img src="demos/resources/images/pic6.png" alt="back of chair">
+     
+        <img src="demos/resources/images/pic7.png" alt="table and chair set">
+
+      </basic-carousel>
+    </basic-page-dots>
+  </basic-arrow-selection>
+  
+</body>
+
+</html>
