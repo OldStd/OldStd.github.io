@@ -1,0 +1,66 @@
+/* ss4.css */
+
+.nav-item{
+    width: 80%;
+    height: 200px;
+    border: 2px solid blue;
+    margin: 50px;
+    padding: 20px;
+    overflow: scroll;
+    background-color: yellow;
+}
+div#div-header  {
+    width: 80%;
+    height: 250px;
+    border: 2px solid blue;
+    margin: 50px;
+    padding: 20px;
+    overflow: scroll;
+    background-color: lightgreen;
+}  
+
+img {
+    margin: 10px;
+    height: 70px;
+    width: 90px;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.right-nav {
+            width: 360px;
+            height: 100px;
+            display: inline-block;
+            margin: 40px 20px 20px 0px;
+            float: right;
+            box-sizing: border-box;
+        }
+
+a.right-nav-a {
+    display: inline-block;
+    height: 50%;
+    background-color: brown;
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 10px;
+    text-align: center;
+}    
+      
+
+.box {
+    display: inline-block;
+}
+
+h2.box {
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid black;
+    float: right;
+    position: relative;
+    top: 10px;
+    left: 10px;
+
+}
+/* end of ss4.css */

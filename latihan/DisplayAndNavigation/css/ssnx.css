@@ -1,0 +1,29 @@
+/* nx */
+/* <style type="text/css">*/
+body.n-body {
+    width: 600px;
+    height: 800px;
+    max-height: 900px;
+    border: 1px solid red;
+    background-color: lightblue;
+    overflow: scroll;
+    text-align: center;
+    font-weight: bold;
+}
+div#pre1 {
+  padding: 10px;
+  border: 5px dashed black;
+  background-color: white;
+  color: purple;
+  border-radius: 20px;
+  margin: 50px;
+  width: 380px;
+  height: 380px;
+  font-size: 1.5em;
+  overflow: scroll;
+  text-align: left;
+}
+
+
+/* <style> */
+/* end of nx */

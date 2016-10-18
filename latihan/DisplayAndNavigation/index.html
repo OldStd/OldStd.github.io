@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<title>Positioning</title>
+<head>
+
+<link rel="stylesheet" type="text/css" href="css\stylesheet.css">
+<link rel="stylesheet" type="text/css" href="css\ss8.css" id="link2">
+<script type="text/javascript" src="js\myScripts.js"></script>
+</head>
+<body class="ndx-body">
+
+<div class="ndx-wrapper">
+
+<div class="ndx-header">
+
+  <h2>Exercises on Display and Navigation</h2>
+  <p>The following exercises are on display and navigation through the webpage</p>
+
+  <p>
+    The notes and CSS scripts are on the left.
+  </p>
+  <p>
+    The webpage displays on the right-hand side are the result of applying the CSS scripts provided in the the left pane.
+  </p>
+  <div id="div-nav">
+  <button onclick="myFunction(0)">0</button>
+    <button onclick="myFunction(1)">1</button>
+    <button onclick="myFunction(2)">2</button>
+    <button onclick="myFunction(3)">3</button>
+    <button onclick="myFunction(4)">4</button>
+  </div>
+</div>
+
+<div class="ndx-content">
+
+<div class="panes" id="left-pane">
+
+  <div id="div-notes">
+    <iframe src="n0.html" width="650" height="450" id="iframe_notes"></iframe>
+  </div>
+
+</div>
+
+<div class="panes" id="right-pane">
+  <div class="c-wd-body" id="wd-body">
+    <div class="c-wd-wrapper" id="wd-wrapper">
+      <div id="div-header">
+        <a name="top"></a>
+        <div><img src="images/logo2.png" class="box">
+          <h2 class="box">Display & Navigation</h2>
+        </div>
+        <div class="right-nav">
+          <a class="right-nav-a" href="#home"><h2>Home</h2></a>
+          <a class="right-nav-a" href="#products"><h2>Products</h2></a>
+          <a class="right-nav-a" href="#resume"><h2>About Me</h2></a>
+        </div>
+      </div>
+      <div class="nav-item" id="div-home">
+        <a name="home"></a>
+        <h2>Welcome!</h2>
+        <div class="right-nav"><h4><a class="right-nav-a" href="#top">Go to the top!</a></h4></div> 
+      </div>
+      <div class="nav-item"id="div-products">
+        <a name="products"></a>
+        <h2>I have many products for sale</h2>
+        <div class="right-nav"><h4><a class="right-nav-a" href="#top">Go to the top!</a></h4></div> 
+      </div>
+      <div class="nav-item" id="div-resume">
+        <a name="resume">
+        <h2>My Resume</h2>
+        <div class="right-nav"><h4><a class="right-nav-a" href="#top">Go to the top!</a></h4></div> 
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="ndx-footer">
+  <h2>Footer</h2>
+  <h3>Comments are most welcome</h3>
+</div>
+</div>
+</body>
+</html>
+

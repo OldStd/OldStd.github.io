@@ -1,0 +1,23 @@
+/* ss3.css */
+.nav-item{
+    width: 80%;
+    height: 200px;
+    border: 2px solid blue;
+    margin: 50px;
+    padding: 20px;
+    overflow: scroll;
+    background-color: yellow;
+}
+div#div-header  {
+    width: 80%;
+    height: 250px;
+    border: 2px solid blue;
+    margin: 50px;
+    padding: 20px;
+    overflow: scroll;
+    background-color: lightgreen;
+} 
+a.right-nav-a {
+    display: inline-block;
+}
+/* end of ss3.css */
