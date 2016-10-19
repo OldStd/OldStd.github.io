@@ -1,0 +1,226 @@
+/* stylesheet.css */
+* {
+			margin: 0;
+		}
+		section{
+			width: 1000px;
+			margin: auto;
+			background: #ecebeb;
+		}
+div#page-wrapper {
+    padding: 25px;
+}
+		article {
+			display: inline-block;
+		}
+
+		footer {
+			padding: 10px;
+			background: #a5a0a0;
+			column-count: 3;
+		}
+
+#imgdiv img {
+    width: 100.6%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+		#menu ul li a {
+		    background: #e2a324;
+		    color: #4e4f3e;
+		    text-decoration: none;
+		    padding: 10px 0px;
+		    display: inline-block;
+		    width: 92px;
+		}
+
+		#menu ul li {
+		    list-style: none;
+		    padding: 5px;
+		    text-align: center;
+		    display: inline-block;
+		}
+
+		#menu ul {
+			display: inline-block;
+		    vertical-align: middle;
+		    margin-left: 460px;
+		}
+
+		#menu img {
+			padding: 5px;
+			vertical-align: bottom;
+			display: inline-block;
+			width: 55px;
+			height: 55px;
+			border-radius: 50%;
+			
+		}
+
+#left {
+    display: inline-block;
+    width: 20%;
+    background: #81C784;
+    margin: 5px;
+    vertical-align: top;
+    height: 350px;
+}
+
+#center {
+    display: inline-block;
+    width: 50%;
+    background: rgba(255, 255, 255, 0.54);
+    position: relative;
+    margin-left: 33px;
+    vertical-align: top;
+    margin-right: 33px;
+}
+		#right {
+			display: inline-block;
+			width: 200px;
+			background: green;
+			margin: 5px;
+			vertical-align: top;
+			overflow: scroll;
+		}
+
+		form {
+		    margin-top: 8px;
+		    background: #dadada;
+		}
+
+		form ul {
+		    padding: 5px;
+		}
+
+		form li {
+		    list-style-type: none;
+		}
+
+		fieldset {
+		    display: inline-block;
+		    width: 460px;
+		    margin: 5px;
+		    vertical-align: top;
+		    min-height: 160px;
+		}
+
+		form p {
+		    margin: 3px 0 0 0;
+		}
+		#fieldset1 label {
+		    min-width: 114px;
+		    display: inline-block;
+		    vertical-align: top;
+		}
+
+		#fieldset1 textarea {
+		    width: 72%;
+		    margin-left: 25%;
+		}
+		#fieldset1 input {
+		    width: 72%;
+		}
+
+		form div {
+		    display: inline-block;
+		    vertical-align: top;
+		    width: 32%;
+		    box-shadow: 1px 1px 1px 1px;
+		    min-height: 100px;
+		}
+
+		header {
+			padding: 5px;
+		}
+
+		div {
+			box-sizing: border-box;
+			padding: 5px;
+		}
+
+		#magicsquare0 {
+		    position: absolute;
+		    top: -4px;
+		    right: -4px;
+		    width: 0;
+		    height: 0;
+		    border-left: 20px solid transparent;
+		    border-top: 20px solid #f00;
+		}
+		#magicsquare1{
+			position: absolute;
+		    top: -4px;
+		    left: -4px;
+		    width: 0;
+		    height: 0;
+		    border-right: 20px solid transparent;
+		    border-top: 20px solid #f00;
+
+			
+		}
+		#magicsquare2{
+			position: absolute;
+		    bottom: -4px;
+		    right: -4px;
+		    width: 0;
+		    height: 0;
+		    border-left: 20px solid transparent;
+		    border-bottom: 20px solid #f00;
+			
+		}
+		#magicsquare3{
+			position: absolute;
+		    bottom: -4px;
+		    left: -4px;
+		    width: 0;
+		    height: 0;
+		    border-right: 20px solid transparent;
+		    border-bottom: 20px solid #f00;
+			
+		}
+
+		.btn {
+			margin: 5px;
+		  background: #3498db;
+		  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+		  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+		  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+		  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+		  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+		  -webkit-border-radius: 11;
+		  -moz-border-radius: 11;
+		  border-radius: 11px;
+		  font-family: Arial;
+		  color: #ffffff;
+		  font-size: 12px;
+		  padding: 10px 20px 10px 20px;
+		  border: solid #1f628d 1px;
+		  text-decoration: none;
+		}
+
+		.btn:hover {
+		  background: #3cb0fd;
+		  text-decoration: none;
+		}
+		div.extdoc {
+    background-color: beige;
+    width: auto;
+    height: 100%;
+}
+		div.extdoc2 {
+    background-color: lightblue;
+    width: auto;
+    height: 100%;
+}
+		div.extdoc3 {
+    background-color: lightgreen;
+    width: auto;
+    height: 100%;
+}
+form div {
+    display: inline-block;
+    vertical-align: top;
+    width: 32%;
+    box-shadow: 1px 1px 1px 1px;
+    min-height: 120px;
+}

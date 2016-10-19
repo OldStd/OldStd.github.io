@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<script type="text/javascript" src="js\myScripts.js"></script>
+</head>
+<body>
+<div id="page-wrapper">
+	<section>
+	<nav id="menu">
+		<img src="images/logo2.png">
+		<ul>
+			<li><a href="html.html" target="ifm1">HTML</a> </li>
+			<li><a href="css.html" target="ifm1">CSS</a> </li>
+			<li><a href="javascripts.html"  target="ifm1">JavaScript</a> </li>
+			<li><a href="jquery.html"  target="ifm1">jQuery</a></li>
+		</ul>
+	</nav>
+	
+	<article>
+		<div id="left">
+	<h5>Click the following to get instructions to change the contents in the center pane</h5>
+
+		<ul><h4>Click to change pic</h4>
+		<li><button onclick="myFunction(1)">1</button></li>
+		<li><button onclick="myFunction(2)">2</button></li>
+		<li><button onclick="myFunction(3)">3</button></li>
+		<li><button onclick="myFunction(4)">4</button></li>
+		</ul>
+	<ul>
+	<li><a href="navdoc.html" target="iframe_b1">Navigate inside a document</a></li>
+		<li><a href="sendExtDoc.html" target="iframe_b1">Send in an external file</a></li>
+
+	</ul>
+
+
+		</div>
+
+		<div id="center">
+		<iframe src="images\p1.jpg" name="iframe_a1" id="iframe_a" width="500" height="350">
+		</iframe>
+		<!--
+			<div id="imgdiv" style="margin:auto">
+			<img src="images/1.jpg">
+
+			</div>
+			<br>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<br>
+		-->
+			<p id="magicsquare0"></p>
+			<p id="magicsquare1"></p>
+			<p id="magicsquare2"></p>
+			<p id="magicsquare3"></p>
+			
+		</div>
+
+	<div id="right">
+		<iframe src="usejs.html" name="iframe_b1" id="iframe_b" width="175" height="350">
+			<ul>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</iframe>	
+		</div>
+	</article>
+	
+	<form>
+		<fieldset id="fieldset1">
+			<legend>Customer Info</legend>
+
+			
+				<p> <label class="label" for="company">Company</label>
+				<input class="user" type="text" name="company" id="company" required=""></p>
+				<p><label class="label" for="address">Address</label>
+				<input class="user" type="text" name="address" id="address" required=""></p>
+				<p><label class="label" for="contact">Contact Name</label>
+				<input class="user" type="text" name="contact" id="contact" required=""></p>
+				<p><label class="label" for="textarea">Project Description</label>
+				<textarea class="message" name="textarea" id="textarea" required=""></textarea></p>
+
+		</fieldset>
+
+		<fieldset id="fieldset2">
+			<legend>Project Info</legend>
+
+			<div>
+				<h4>Business Volume in Last Quarter</h4>
+
+				<p class="select icon">
+					<select class="budget">
+						<option value="0">Select Volume</option>
+						<option value="1">&lt; $5000</option>
+						<option value="2">$5000 - $10000</option>
+						<option value="3">&gt; $10000</option>
+					</select>
+				</p>
+			</div> 
+
+			<div>
+				<h4>Project type</h4>
+
+				<ul class="form-list">
+					<li>
+						<input type="radio" name="radio-button" id="radio-1" checked="">
+						<label for="radio-1">New Project</label>
+					</li>
+
+					<li>
+						<input type="radio" name="radio-button" id="radio-2">
+						<label for="radio-2">Maintenance</label>
+					</li>
+
+					<li>
+						<input type="radio" name="radio-button" id="radio-3">
+						<label for="radio-3">Disaster Recovery</label>
+					</li>
+				</ul>
+			</div>
+
+			<div>
+					<h4>Features</h4>
+
+					<ul class="cd-form-list">
+						<li>
+							<input type="checkbox" id="cd-checkbox-1">
+							<label for="cd-checkbox-1">Option 1</label>
+						</li>
+
+						<li>
+							<input type="checkbox" id="cd-checkbox-2">
+							<label for="cd-checkbox-2">Option 2</label>
+						</li>
+
+						<li>
+							<input type="checkbox" id="cd-checkbox-3">
+							<label for="cd-checkbox-3">Option 3</label>
+						</li>
+					</ul>
+				</div>
+
+
+			
+		</fieldset>
+		<input class="btn" type="submit" value="Send Message">
+	</form>
+	<footer>
+	
+		<iframe src="html.html" width="950"  name="ifm1" id="ifm1"></iframe>
+
+	</footer>
+	</section>
+</div>	
+</body>
+</html>
