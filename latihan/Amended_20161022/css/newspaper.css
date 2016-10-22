@@ -1,0 +1,12 @@
+/* newspaper.css */
+.newspaper {
+    -webkit-column-count: 4; /* Chrome, Safari, Opera */
+    -moz-column-count: 4; /* Firefox */
+    column-count: 4;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    -webkit-column-rule: 2px solid brown; /* Chrome, Safari, Opera */
+    -moz-column-rule: 2px solid brown; /* Firefox */
+    column-rule: 2px solid brown;
+}
