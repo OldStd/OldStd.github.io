@@ -1,0 +1,16 @@
+/* stylesheet.css */
+
+*{
+	margin: 0px;
+}
+
+body {
+    background-color: #7d1111;
+}
+
+div#wrapper {
+    width: 800px;
+    background-color: #b7d1da;
+    padding: 20px;
+    margin: 50px auto;
+}
