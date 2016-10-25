@@ -1,0 +1,90 @@
+/* stylesheet.css */
+* {
+	margin: 0px;
+    padding: 0px;
+}
+body {
+    
+}
+div#wrapper {
+    width: 500px;
+    background-color: #ccd8de;
+    padding: 5px;
+    font-family: Helvetica;
+}
+
+form {
+    width: 380px;
+    background-color: #EEEEEE;
+    padding: 10px 35px;
+}
+
+p {
+	padding-bottom: 15px;
+        
+}
+
+p#p1 {
+
+}
+p#p2 {
+    font-size: 8px;
+}
+input[type="text"] {
+    width: 140px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 0px 0px 10px 4px;
+    background-color: #ffffff;
+}
+
+input.longtext {
+    width: 302px;
+}
+
+select {
+    padding: 5px;
+    font-size: 9px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+}
+label#lbl-signup {
+    font-size: 27px;
+    font-weight: bold;
+    
+}
+label#lbl-bday1 {
+    display: block;
+    font-size: 14px;
+        margin-bottom: 5px;
+}
+
+label#lbl-bday2 {
+    font-size: 8px;
+    color: #3489cd;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px;    
+}
+label.lbl-gender {
+    font-size: 10px;
+}
+
+input[type="radio"] {
+    margin: 10px 0px 20px 10px;
+}
+span {
+    color: #6e7fd6;
+    font-size: 9px;
+}
+input[type="submit"] {
+    width: 152px;
+    padding: 7px;
+    background-color: #4a9a4a;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
