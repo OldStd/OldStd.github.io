@@ -1,0 +1,6 @@
+/* trn2.css */
+div#div2 {
+   -ms-transform: skewX(40deg); /* IE 9 */
+    -webkit-transform: skewX(40deg); /* Safari */
+    transform: skewX(40deg); /* Standard syntax *
+}

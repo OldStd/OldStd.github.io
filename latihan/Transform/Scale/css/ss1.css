@@ -1,0 +1,6 @@
+/* trn1.css */
+div#div2 {
+    -ms-transform: scale(2,3); /* IE 9 */
+    -webkit-transform: scale(2,3); /* Safari */
+    transform: scale(2,3); /* Standard syntax */
+}

@@ -1,0 +1,6 @@
+/* trn2.css */
+div#div2 {
+    -ms-transform: translate(100px,0px); /* IE 9 */
+    -webkit-transform: translate(100px,0px); /* Safari */
+    transform: translate(100px,200px); /* Standard syntax */
+}

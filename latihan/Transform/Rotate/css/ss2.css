@@ -1,0 +1,8 @@
+/* trn2.css */
+div#div2 {
+
+    -ms-transform: rotate(40deg); /* IE 9 */
+    -webkit-transform: rotate(40deg); /* Safari */
+    transform: rotate(40deg); /* Standard syntax */
+
+}
