@@ -1,0 +1,27 @@
+/* css/stylesheet.css */
+
+
+div#col_1 {
+    background-color: yellow;
+    height: 300px;
+}
+
+div#col_2 {
+    background-color: blue;
+    height: 300px;
+}
+
+div#col_3 {
+    background-color: red;
+    height: 300px;
+}
+
+div#col_4 {
+    background-color: green;
+    height: 300px;
+}
+
+div#col_5 {
+    background-color: purple;
+    height: 300px;
+}
