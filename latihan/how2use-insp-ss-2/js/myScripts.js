@@ -1,7 +1,7 @@
 /* js codes here */
 function myFunction (num){
 var ifrm_notes = document.getElementById("iframe_notes");
-var nts = "Step" + num + ".html";
+var nts = "step" + num + ".html";
 ifrm_notes.src = nts;
 
 var img_display1 = document.getElementById("img_display");
