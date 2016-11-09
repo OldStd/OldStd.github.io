@@ -1,0 +1,60 @@
+/* css/main.css */
+div#col_1 {
+    background-image: url("../images/map1.png");
+    
+    height: 410px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+div#col_2 {
+    background-image: url("../images/pic1.png");
+    
+    height: 410px;
+        background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+div#col_3 {
+    background-image: url("../images/chart1.png");
+    
+    height: 410px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+div#col_4 {
+    background-image: url("../images/map1.png");
+    
+    height: 410px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+div#col_5 {
+    background-image: url("../images/pic1.png");
+    
+    height: 410px;
+        background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+div#col_6 {
+    background-image: url("../images/chart1.png");
+    
+    height: 410px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.container-fluid.box {
+	
+    height: 410px;
+    background-color: red;
+}
