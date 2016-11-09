@@ -15,3 +15,10 @@ div#div-1b {
  width:200px;
  }
 /* end of ss5.css */
+
+div#pre1 {
+    width: 300px;
+    height: 100px;
+    border: 2px dotted white;
+    background-color: beige;
+}

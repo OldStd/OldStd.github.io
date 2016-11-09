@@ -8,15 +8,11 @@
     background-color: lightblue;
   }
 div#pre1 {
-  padding: 10px;
-  border: 5px dashed black;
-  background-color: white;
-  color: purple;
-  border-radius: 20px;
-  margin: 50px;
-  width: 380px;
-  height: auto;
-  font-size: 20px;
+    border: 2px dashed brown;
+    background-color: beige;
+    margin: 0px 70px;
+    border-radius: 15px;
+    padding: 10px;
 }
 pre {
     width: 380px;
