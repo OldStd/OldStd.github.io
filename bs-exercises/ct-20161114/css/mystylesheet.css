@@ -1,0 +1,37 @@
+/* css/mystylesheet.css */
+
+
+form.form {
+    width: 50%;
+    padding-top: 50px;
+}
+
+input#first-name {
+    width: 100%;
+}
+
+
+.form-group {
+    width: 100%;
+}
+
+input#first-name {
+	color: red;
+}
+
+input#last-name {
+	color: green;
+}
+
+input#email {
+	color: purple;
+}
+
+label {
+    font-size: 2em;
+}
+
+input[type="text"]:focus {
+	height: 150px;
+
+}
