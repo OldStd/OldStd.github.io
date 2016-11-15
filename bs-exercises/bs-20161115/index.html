@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Class Work 2016-11-14 and Homework Assignment</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elstrongents and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.js"></script>
+    <![endif]-->
+    <!-- Local Links -->
+    <link rel="stylesheet" type="text/css" href="css/mystylesheet.css">
+  </head>
+  <body>
+    <div class="wrapper">
+        <div class="header">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center">Class Work 2016-11-14 and Homework Assignment</h1>
+                <h2 class="text-center">Button sizes and colors and Dropdown in the header/navbar</h2>
+            </div>
+        </div>
+
+
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-4">
+                        <ul>
+                        <li><a href="#ct1114" class="btn btn-lg btn-danger">Class Work</a></li>
+                        <li><a href="#bs1115" class="btn btn-success btn-sm">Homework1</a></li>
+                        <li><div class="dropdown">
+  <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Be a Uber Driver
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="#whybdrv">Why be a Uber Driver</a></li>
+                        <li><a href="#how2bdrv">How to be a Uber Driver</a></li>
+                        <li><a href="#howmuch">How Much Can He Earn</a></li>
+
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#ubergrab">Uber or Grab</a></li>
+  </ul>
+</div></li>
+                    </ul>
+                    </div>
+                </div>
+
+
+    </div>
+        <div class="contents">
+
+            <div class="container">
+                <form action="#" method="get" id="login" style=" display:inline!important;">
+
+  <label for='User'>User:</label> 
+  <input type='text' name='User' id='User'>
+
+  <label for='password'>Password:</label><input type='password' name='password' id='password'>
+  <input type="submit" name="log" id="log" class="botton" value="Login" />
+
+</form> 
+            </div>
+
+    <div class="container-fluid box" >
+                <a name="ct1114"></a> 
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron text-center">
+                    <h2>Class work 2016-11-14</h2>
+                </div>
+            </div>
+            
+        </div>
+    
+      <form class="form">
+
+  <div class="form-group">
+    <label for="first-name">First Name</label>
+    <input type="text" class="form-control " id="first-name" placeholder="First Name" />
+  </div>
+
+  <div class="form-group">
+    <label for="last-name">Last Name:</label>
+    <input type="text" class="form-control text-danger" id="last-name" placeholder="Last Name" />
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" class="form-control text-success" id="email" placeholder="Email" />
+  </div>
+
+
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="pwd" placeholder="Create a password with at least 5 characters">
+  </div>
+  <div class="checkbox">
+    <label><input type="checkbox"> Remember me</label>
+  </div>
+  <button type="submit" class="btn btn-success">Submit</button>
+</form
+
+
+    
+    </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-sm-offset-6 col-md-6 col-lg-4 col-lg-offset-4">
+
+            <div class="nm-gap"></div>
+            <a name="bs1115"></a>
+            <div class="jumbotron text-center">
+                  <h2>Jumbotron & Glyphicons</h2>
+                <h2>HTML Form in bootstrap grids</h2>
+                </div>
+
+      <form class="form1">
+
+    <div class="form-group">
+      <div class="row">
+      <div class="col-xs-1">
+    <label for="first-name"><span class="glyphicon glyphicon-user"></span></label> </div>
+      <div class="col-xs-11">
+    <input type="text" class="form-control " id="fname" placeholder="First Name" aria-hidden="true" /></div>
+          </div>
+  </div>
+    
+    <div class="form-group">
+      <div class="row">
+      <div class="col-xs-1">
+    <label for="last-name"><span class="glyphicon glyphicon-user"></span></label></div>
+      <div class="col-xs-11">
+    <input type="text" class="form-control text-danger" id="lname" placeholder="Last Name"></div>
+          </div>
+  </div>
+
+    <div class="form-group">
+      <div class="row">
+      <div class="col-xs-1">
+      <label for="phone"> <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></label></div>
+   <div class="col-xs-11">
+    <input type="tel" class="form-control text-success" id="phone" placeholder="Phone Number" /></div>
+          </div>
+  </div>
+
+    <div class="form-group">
+      <div class="row">
+      <div class="col-xs-1">
+      <label for="email"> <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></label></div>
+   <div class="col-xs-11">
+    <input type="email" class="form-control text-success" id="email2" placeholder="Email" /></div>
+          </div>
+  </div>
+
+    <div class="form-group">
+      <div class="row">
+      <div class="col-xs-1">
+      <label for="password"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></label>
+      </div>
+      <div class="col-xs-11">
+    <input type="password" class="form-control" id="pwd1" placeholder="Create a password with at least 5 characters">
+      </div>
+      </div>
+  </div>
+
+    <div class="form-group">
+        <div class="col-xs-1">
+        <label for="password"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></label>
+    </div>
+        <div class="col-xs-11">
+  <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>
+  </div>
+    </div>
+
+    <div class="row">
+    <div class="col-xs-12">
+  <button type="submit" class="btn btn-success">Submit</button>
+
+    </div>
+</div>
+
+    </form>
+
+                    </div>
+            </div>
+        </div>
+
+
+
+<div class="container">
+        <a name="whybdrv"></a> 
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron text-center">
+                    <h2>Why be a Uber driver?</h2>
+                    <h3>Illustrating Bootstrap Grid Layouts with RWD</h3>
+                </div>
+                <strong>Drive with Uber in Malaysia </strong> <br />
+                <strong>and Be Your Own Boss</strong> <br />
+                <h3>Money. Freedom. Flexibility</h3>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                
+                <strong>Drive when you want </strong> <br />
+                
+                <h3>Earn what you need</h3>
+                
+            </div>
+
+            <div class="col-md-4 text-left">
+                <h4>Make great money</h4>
+                <p>You can drive and earn as much as you want. And, the more you drive, the more you'll make. Plus, you'll get paid weekly and your fares get automatically deposited.</p>
+                
+            </div>
+            <div class="col-md-4 text-left">
+                <h4>Set your own schedule</h4>
+                <p>Only drive when it works for you. There's no office and no boss. That means you'll always start & stop on your time-because with Uber, you're in charge.</p>
+                
+            </div>
+            <div class="col-md-4 text-left">
+                <h4>Signing up is easy</h4>
+                <p>Sign up today and you'll be on the road in no time. Plus, signing up takes less than 4 minutes. Don't wait to start making great money with your car.</p>
+                
+            </div>
+
+            <div class="col-md-12 text-center">
+                <p>Extracted from <a href="https://www.uber.com/signup/drive/malaysia/?utm_source=AdWords_Brand&utm_campaign=search-google-brand_106_433_my-johorbahru_d_txt_acq_cpc_en-my_uber_kwd-169801042_105343189030_32236315750_e_c_track-jan15urludpate_&cid=474980710&adg_id=32236315750&fi_id=&match=e&net=g&dev=c&dev_m=&cre=105343189030&kwid=kwd-169801042&kw=uber&placement=&tar=&gclid=CK7-y6rNmtACFdOGaAodMn4BZg&gclsrc=aw.ds&dclid=CK2h9KrNmtACFQgQvQodmyEBUQ" target="_blank">here</a></p>
+            </div>
+        </div>
+         
+    </div>
+        <div class="container">
+        <div class="nm-gap"></div>
+        <a name="how2bdrv"></a>
+
+        <div class="jumbotron text-center">
+                  <h2>How to be a Uber driver?</h2>
+                  <p>Just fill up a form and register as a driver!</p>
+            <p>Illstrating Glyphicons and Bootstrap Grids</p>
+                </div>
+
+        <div class="row">
+            <div class="col-md-4 col-sm-offset-4">
+    <div class="row">
+            <div class="col-md-12">
+                <p>Extracted from <a href="https://www.uber.com/signup/drive/malaysia/?utm_source=AdWords_Brand&utm_campaign=search-google-brand_106_433_my-johorbahru_d_txt_acq_cpc_en-my_uber_kwd-169801042_105343189030_32236315750_e_c_track-jan15urludpate_&cid=474980710&adg_id=32236315750&fi_id=&match=e&net=g&dev=c&dev_m=&cre=105343189030&kwid=kwd-169801042&kw=uber&placement=&tar=&gclid=CK7-y6rNmtACFdOGaAodMn4BZg&gclsrc=aw.ds&dclid=CK2h9KrNmtACFQgQvQodmyEBUQ" target="_blank">here</a></p>
+            </div>
+        </div>
+
+                
+                <h3>Sign up now</h3>
+            
+            
+      <form class="form3">
+
+    <div class="form-group">
+      <div class="row">
+      <div class="col-xs-1">
+        <label for="first-name"><span class="glyphicon glyphicon-user"></span></label>
+      </div>
+      <div class="col-xs-5">
+    <input type="text" class="form-control " id="fname2" placeholder="First Name" aria-hidden="true" />
+
+      </div>
+      <div class="col-xs-1">
+        <label for="last-name"><span class="glyphicon glyphicon-user"></span></label>
+      </div>
+      <div class="col-xs-5">
+        <input type="text" class="form-control text-danger" id="lname2" placeholder="Last Name">
+      </div>
+    </div>
+    </div>
+
+    <div class="form-group">
+      <div class="row">
+      <div class="col-xs-1">
+      <label for="phone"> <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></label></div>
+   <div class="col-xs-11">
+    <input type="tel" class="form-control text-success" id="phone2" placeholder="Phone Number" /></div>
+          </div>
+  </div>
+
+    <div class="form-group">
+      <div class="row">
+      <div class="col-xs-1">
+      <label for="email"> <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></label></div>
+   <div class="col-xs-11">
+    <input type="email" class="form-control text-success" id="email22" placeholder="Email" /></div>
+          </div>
+  </div>
+
+    <div class="form-group">
+      <div class="row">
+      <div class="col-xs-1">
+      <label for="password"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></label></div>
+      <div class="col-xs-11">
+    <input type="password" class="form-control" id="pwd2" placeholder="Create a password with at least 5 characters"></div>
+      </div>
+  </div>
+    
+    <div class="form-group">
+      <div class="row">
+      <div class="col-xs-1">
+      <label for="city"><span class="glyphicon glyphicon-globe"></span></label></div>
+      <div class="col-xs-11">
+    <input type="text" class="form-control" id="city1" placeholder="City"></div>
+      </div>
+  </div>
+    <div class="form-group">
+      <div class="row">
+      <div class="col-xs-1">
+      <label for="text"><span class="glyphicon glyphicon-certificate"></span></label></div>
+      <div class="col-xs-11">
+    <input type="text" class="form-control" id="invcode" placeholder="Invite Code (Optional)"></div>
+      </div>
+  </div>
+
+
+    <div class="row">
+    <div class="col-xs-12">
+  <button type="submit" class="btn btn-success">Submit</button>
+
+    </div>
+</div>
+    </form>
+
+
+            <div class="row">
+ 
+                <div class="col-md-12">
+                <p>Have an account? Log in.</p>
+                <p>By proceeding, I agree that Uber, its affiliates, and/or representatives may contact me (including by automatic telephone dialing system) at the phone number on file with my account, including for marketing purposes. I understand that this is not a requirement to use Uber's services and that I may opt out of these communications by texting "STOP" to 89203. I have also read and understand the Privacy Statement.</p>
+            </div>
+            </div>
+
+</div>
+</div>
+</div>
+
+                        
+        <div class="container">
+        <div class="nm-gap"></div>
+        <a name="howmuch"></a>
+        <div class="jumbotron text-center">
+                  <h2>How much could a Uber driver earn?</h2>
+            <p class="text-center">Illustrating blockquotes</p>
+                </div>
+
+        <div class="row">
+            <div class="col-md-4 col-sm-offset-4">
+            <div class="row">
+                    <div class="col-md-12">
+                            
+                        <p>Here is a quote from mygadgets' <a href="http://www.mygadgets.my/uber-driver-malaysia/" target="_blank">website</a> :</p>
+                        <blockquote cite="http://www.mygadgets.my/uber-driver-malaysia/">
+                            <p>As of September 2016, Uber has removed guaranteed rates and instead replaced it with Surge pricing.  Drivers can now choose to drive and work based on their preference. This system is more flexible and allows driver to work whenever they want to with less time wastage. </p>
+                            <p>Partners can now zoom into areas where they are a lot of demands and focus on those areas instead. The map with surge pricing will be displayed on the Uber partner app. </p>
+                            <p>Yes , there are statements going around that people can earn more than RM 10,000 per month driving Uber. It is possible if you drive like there is no tomorrow. You will have to take note that these earning figures are revenue and not net profit. You will have to also factor in other costs such as petrol, vehicle maintenance and depreciation.</p>
+
+
+                        </blockquote>
+                    </div>
+                  
+                </div>
+
+                        
+
+            
+            
+        </div>
+
+     </div>
+
+    </div>
+        <div class="container">
+        
+        <a name="ubergrab"></a>
+        <div class="jumbotron text-center">
+            <h2>Part-time Job: Should You Drive For Uber Or GrabCar?</h2>
+            <p class="text-center">Illustrating the use of Bootstrap Table</p>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-offset-4">
+            
+                
+                    <p>Here is an extract from imoney.my's <a href="https://www.imoney.my/articles/part-time-job-should-you-drive-for-uber-or-grabcar" target="_blank">website</a> :</p>
+                    <table class="table">
+                        <thead>
+                              <tr>
+                                <th>UberX</th>
+                                <th>GrabCar Economy</th>
+                              </tr>
+                        </thead>
+                        <tbody>
+      <tr>
+        <td>Mon-Fri 6am-10am</td>
+        <td>Mon-Fri 6am-10am</td>
+      </tr>
+      <tr>
+            <td>Total Income per month</td>
+            <td>Total Income per month</td>
+      </tr>
+      <tr>
+            <td>RM1,692 <br />
+                + RM531<br />
+                + RM150<br />
+                = RM2,373
+            </td>
+            <td>RM1,800 <br />
+                + RM448 <br />
+                <br />
+                =RM2,248
+            </td>
+        </tr>
+        
+    </tbody>
+                    </table>
+                
+            
+        </div>
+
+     </div>
+    </div>               
+    </div>
+        <div class="footer text-center">
+        <h3>Comments are most welcome! </h3>
+    </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
