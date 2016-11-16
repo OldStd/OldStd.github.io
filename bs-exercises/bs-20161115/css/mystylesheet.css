@@ -35,3 +35,33 @@ input[type="text"]:focus {
 	height: 150px;
 
 }
+
+.jumbotron.text-center {
+    background-image: url("../images/2016Nov_SAM.jpg");
+    
+    height: 410px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.jumbotron.text-center#j1{
+ background-image: url("..");
+    color: black;
+    height: auto;
+}
+
+.jumbotron.text-center#j2 {
+    background-image: url("../images/pretty-woman-1509959__340.jpg");
+    color: brown;
+
+
+}
+
+.jumbotron.text-center#j3{
+    background-image: url("../images/520007784.jpg");
+    color: red;
+
+    
+}
