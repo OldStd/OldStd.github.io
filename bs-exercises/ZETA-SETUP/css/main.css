@@ -1,0 +1,501 @@
+body {
+    
+    font-family: 'Lato', sans-serif; 
+    
+    
+}
+
+section#home {
+    background: url(../images/homebg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+
+#home .container {
+    padding: 200px 0;
+}
+
+
+#home h1 {
+    font-size: 72px;
+    color: white;
+  
+
+    font-weight: 100;
+
+    border-top: 2px solid white;
+    border-bottom: 2px solid white; 
+    
+    display: inline-block;
+    padding: 10px 0px 10px 0px;
+    margin: 20px;
+}
+
+
+#about hr {
+    color: white;
+    width: 10%;
+}
+
+#home h3 {
+    font-size: 24px;
+    color: white;
+    font-weight: 100;
+    margin: 5px;
+}
+
+#home i {
+    font-size: 40px;
+    color: white;
+    margin: 20px;
+}
+
+section#about {
+    background: url(../images/aboutbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 440px;
+}
+
+#about h3 {
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+    display: inline-block;
+    position: relative;
+    top: 185px;
+    letter-spacing: 5px;
+}
+
+#about hr {
+    color: #fff;
+    width: 70%;
+    position: relative;
+    top: 190px;
+}
+
+#about h5 {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 100;
+    padding-right: 150px;
+    padding-left: 150px;
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
+
+#services h3 {
+    color: #873fb5;
+    font-weight: 100;
+}
+
+#services .services-title {
+    padding: 50px;
+}
+
+#services .container {
+    padding: 20px 20px;
+    margin-bottom: 30px;
+}
+
+#services .col-md-4.col-sm-6.col-xs-12.coll {
+    padding: 15px;
+}
+
+#services i.fa.fa-desktop {
+    font-size: 40px;
+    color: #c1c1c1;
+    border-right: 2px solid #c1c1c1;
+    padding-right: 15px;
+    display: inline-block;
+}
+
+#services .service-mini {
+    display: inline-block;
+    padding: 10px;
+}
+
+#services h4 {
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0px;
+}
+
+#services h5 {
+    font-size: 15px;
+    margin: 0px;
+    color: #873fb5;
+}
+
+section#skills {
+    background: url(../images/skillsbg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 467px;
+}
+
+.skill-title.left {
+    padding: 50px 50px 10px 50px;
+    display: inline-block;
+    position: relative;
+    top: 30px;
+}
+
+#skills h2 {
+    font-weight: 900;
+    font-size: 48px;
+    color: #fff;
+}
+
+#skills h4 {
+    font-weight: 100;
+    font-size: 24px;
+    color: #fff;
+    padding-bottom: 20px;
+    margin-top: -10px;
+}
+
+#skills p {
+    color: #fff;
+    padding: 10px;
+    font-weight: 100;
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+    bottom: -5px;
+    left: 30px;
+    text-align: justify;
+}
+
+.button-1 {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 100;
+    padding-left: 47px;
+    display: inline-block;
+    position: relative;
+    top: 25px;
+}
+
+#skills .button1:hover {
+    color: #873fb5;
+}
+
+.button-2 {
+    color: #873fb5;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 100;
+    padding-left: 30px;
+    display: inline-block;
+    position: relative;
+    top: 25px;
+}
+
+#skills .button2:hover {
+    color: #fff;
+}
+
+#portfolio .portfolio-title.text-center {
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: #873fb5;
+    padding: 50px;
+}
+
+section#portfolio {
+    margin-bottom: 100px;
+    position: relative;
+    right: 20px;
+}
+
+#portfolio .tree-mini1 {
+    background: url(../images/skillsbg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 400px;
+}
+
+#portfolio .tree-mini1:hover {
+    opacity: .75;
+    cursor: pointer;
+}
+
+#portfolio .tree-mini2 {
+    background: url(../images/skillsbg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 400px;
+}
+
+#portfolio .tree-mini2:hover {
+    opacity: .75;
+}
+
+.tree-mini2 h2 {
+    display: inline-block;
+    color: #fff;
+    font-weight: 100;
+    border-top: #fff solid 1px;
+    border-bottom: #fff solid 1px;
+    position: relative;
+    top: 100px;
+}
+
+#portfolio i.fa.fa-search {
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    font-size: 24px;
+}
+
+#portfolio .tree-mini3 {
+    background: url(../images/skillsbg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 400px;
+}
+#portfolio .tree-mini3:hover {
+   opacity: .75;
+}
+
+#portfolio .tree-mini4 {
+    background: url(../images/skillsbg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 400px;
+}
+#portfolio .tree-mini4:hover {
+    opacity: .75;
+}
+
+#portfolio .tree-mini5 {
+    background: url(../images/skillsbg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 400px;
+}
+#portfolio .tree-mini5:hover {
+    opacity: .75;
+}
+
+#portfolio .tree-mini6 {
+    background: url(../images/skillsbg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 400px;
+}
+#portfolio .tree-mini6:hover {
+    opacity: .75;
+}
+
+section#four {
+    margin: 0px 30px 50px 30px;
+    display: inline-block;
+}
+
+#four .box1 {
+    background: url(../images/stats1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 300px;
+}
+
+#four .box2 {
+    background: url(../images/stats2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 300px;
+}
+
+#four .box3 {
+    background: url(../images/stats3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 300px;
+}
+
+#four .box4 {
+    background: url(../images/stats4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 300px;
+}
+
+#four i.fa.fa-code {
+    font-size: 36px;
+    display: inline-block;
+    color: #fff;
+}
+
+#four i.fa.fa-file {
+    font-size: 36px;
+    display: inline-block;
+    color: #fff;
+}
+
+#four i.fa.fa-users {
+    font-size: 36px;
+    display: inline-block;
+    color: #fff;
+}
+
+#four i.fa.fa-thumbs-up {
+    font-size: 36px;
+    display: inline-block;
+    color: #fff;
+}
+
+#four .inbox1 {
+    display: inline-block;
+    position: relative;
+    top: 62px;
+    left: 100px;
+    text-align: center;
+}
+
+#four .inbox2 {
+    display: inline-block;
+    position: relative;
+    top: 62px;
+    left: 75px;
+    text-align: center;
+}
+
+#four .inbox3 {
+    display: inline-block;
+    position: relative;
+    top: 62px;
+    left: 100px;
+    text-align: center;
+}
+
+#four .inbox4 {
+    display: inline-block;
+    position: relative;
+    top: 62px;
+    left: 90px;
+    text-align: center;
+}
+
+#four h3 {
+    color: #fff;
+    font-weight: 700;
+}
+
+#four h4 {
+    color: #fff;
+    font-weight: 100;
+}
+
+section#fives {
+    background: url(../images/fivesbg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    margin-bottom: 80px;
+}
+
+#fives h2 {
+    padding-top: 100px;
+    font-size: 24px;
+    font-weight: 100;
+    color: #fff;
+}
+
+#fives i.fa.fa-address-book {
+    color: #fff;
+    font-size: 60px;
+    display: inline-block;
+}
+
+#fives p {
+    color: #fff;
+    margin: 25px;
+    display: inline-block;
+    position: relative;
+    left: 330px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+section#form {
+    margin-bottom: 50px;
+}
+
+#form form.form-inline {
+    display: inline-block;
+}
+
+#form .form-group {
+    margin: auto 10px 15px auto;
+}
+
+#form textarea.form-control {
+    width: 100%;
+    display: inline-block;
+    height: 200px;
+}
+
+section#last {
+    padding-bottom: 50px;
+}
+
+#last {
+    background: url(../images/fivesbg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+
+#last h2 {
+    color: #fff;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+    position: relative;
+    top: 70px;
+    margin: 15px;
+    padding: 10px;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+#last .icon.text-center {
+    color: #fff;
+    position: relative;
+    top: 80px;
+    font-size: 32px;
+}
+
