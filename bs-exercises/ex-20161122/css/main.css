@@ -1,0 +1,169 @@
+body {
+    
+    font-family: 'Lato', sans-serif; 
+    
+    
+}
+
+section#home {
+    background: url(../images/homebg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+
+#home .container {
+    padding: 200px 0;
+}
+
+
+#home h1 {
+    font-size: 72px;
+    color: white;
+  
+
+    font-weight: 100;
+
+    border-top: 2px solid white;
+    border-bottom: 2px solid white; 
+    
+    display: inline-block;
+    padding: 10px 0px 10px 0px;
+    margin: 20px;
+}
+
+
+#about hr {
+    color: white;
+    width: 10%;
+}
+
+#home h3 {
+    font-size: 24px;
+    color: white;
+    font-weight: 100;
+    margin: 5px;
+}
+
+#home i {
+    font-size: 40px;
+    color: white;
+    margin: 20px;
+}
+
+section#about {
+    background: url(../images/aboutbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+#about h3 {
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+    display: inline-block;
+    position: relative;
+    top: 185px;
+    letter-spacing: 5px;
+}
+
+#about hr {
+    color: #fff;
+    width: 70%;
+    position: relative;
+    top: 190px;
+}
+
+#about h5 {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 100;
+    padding-right: 150px;
+    padding-left: 150px;
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
+
+section#services{
+    height: 900px;
+}
+#services h3 {
+    color: #873fb5;
+    font-weight: 100;
+}
+
+#services .services-title {
+    background: url(../images/stats2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    color: white;
+}
+
+#services .container {
+    padding: 20px 20px;
+    margin-bottom: 30px;
+}
+
+#services .col-md-4.col-sm-6.col-xs-12.coll {
+    padding: 15px;
+}
+
+#services i.fa.fa-desktop {
+    font-size: 144px;
+    color: #c1c1c1;
+    border-right: 2px solid #c1c1c1;
+    padding-right: 15px;
+    display: inline-block;
+	/*
+    width: 100px;
+	height: 100px; */
+}
+
+#services .service-mini {
+    display: inline-block;
+    padding: 10px;
+}
+
+#services h4 {
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0px;
+}
+
+#services h5 {
+    font-size: 15px;
+    margin: 0px;
+    color: #873fb5;
+}
+
+
+
+nav#mainNav {
+    background-color: lightgrey;
+    color: brown;
+}
+
+nav#mainNav {}
+
+a.navbar-brand {
+    color: yellow;
+}
+
+a {
+    color: gold;
+}
+
+nav#mainNav {}
+
+a.navbar-brand {
+    color: yellow;
+}
+
+a.navbar-brand {}
