@@ -146,24 +146,11 @@ section#services{
 
 
 nav#mainNav {
-    background-color: lightgrey;
-    color: brown;
+    background-color: blue;
+    color: white;
 }
 
-nav#mainNav {}
-
-a.navbar-brand {
-    color: yellow;
+nav#mainNav a {
+    
+    color: white;
 }
-
-a {
-    color: gold;
-}
-
-nav#mainNav {}
-
-a.navbar-brand {
-    color: yellow;
-}
-
-a.navbar-brand {}
